@@ -1,5 +1,5 @@
 module YleTfPlugins
   module AWSAssumeRole
-    VERSION = '1.0.1.dev'.freeze
+    VERSION = '2.0.0'.freeze
   end
 end
