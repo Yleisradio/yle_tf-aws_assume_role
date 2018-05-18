@@ -39,7 +39,7 @@ Example `tf.yaml` configuration:
 ```yaml
 aws:
   assume_role: true
-  account: 98765432100
+  account: "98765432100"
   role: dev
   duration: 1800
 ```
