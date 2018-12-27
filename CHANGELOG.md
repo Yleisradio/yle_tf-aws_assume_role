@@ -1,3 +1,6 @@
+## 2.0.2 / _Not released yet_
+
+
 ## 2.0.1 / 2018-12-27
 
 - Run tests and optimize for Ruby versions 2.3-2.6 ([GH-4](https://github.com/Yleisradio/yle_tf-aws_assume_role/pull/4))
