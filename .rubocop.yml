@@ -1,5 +1,9 @@
 AllCops:
-    TargetRubyVersion: 2.2
+    TargetRubyVersion: 2.3
+
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
 
 Metrics/BlockLength:
   Exclude:
@@ -17,13 +21,13 @@ Metrics/MethodLength:
   Max: 12
   Severity: warning
 
-Style/Documentation:
-  Enabled: false
-
-Style/FileName:
+Naming/FileName:
   Exclude:
     - 'lib/yle_tf-*.rb'
     - 'spec/yle_tf-*_spec.rb'
+
+Style/Documentation:
+  Enabled: false
 
 Style/GuardClause:
   MinBodyLength: 3
@@ -31,5 +35,8 @@ Style/GuardClause:
 Style/NegatedIf:
   Enabled: false
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
   Enabled: false
