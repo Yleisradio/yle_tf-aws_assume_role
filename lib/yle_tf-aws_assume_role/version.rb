@@ -2,6 +2,6 @@
 
 module YleTfPlugins
   module AWSAssumeRole
-    VERSION = '2.0.1.dev'
+    VERSION = '2.0.1'
   end
 end
