@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'yle_tf'
 
 module YleTfPlugins
@@ -8,9 +10,9 @@ module YleTfPlugins
       default_config(
         'aws' => {
           'assume_role' => false,
-          'account' => nil,
-          'role' => nil,
-          'duration' => 3600,
+          'account'     => nil,
+          'role'        => nil,
+          'duration'    => 3600,
         }
       )
 

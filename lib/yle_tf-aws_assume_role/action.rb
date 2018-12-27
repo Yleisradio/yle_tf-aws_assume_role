@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'yle-aws-role'
 require 'yle_tf/error'
 require 'yle_tf/logger'
