@@ -1,9 +1,13 @@
 AllCops:
-    TargetRubyVersion: 2.3
+    TargetRubyVersion: 2.4
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
+
+Layout/LineLength:
+  Max: 100
+  Severity: warning
 
 Metrics/BlockLength:
   Exclude:
@@ -11,10 +15,6 @@ Metrics/BlockLength:
     - 'spec/**/*'
 
 Metrics/ClassLength:
-  Severity: warning
-
-Metrics/LineLength:
-  Max: 100
   Severity: warning
 
 Metrics/MethodLength:
